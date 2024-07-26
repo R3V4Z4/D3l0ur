@@ -616,6 +616,7 @@ body {
   border-radius: 20px;
 }
 
+.about-container h1,
 .about-container-crew h1 {
   font-size: 60px;
   font-weight: bold;
