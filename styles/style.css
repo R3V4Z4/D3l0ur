@@ -515,7 +515,7 @@ body {
 #carousel1 .splide__slide img {
   position: relative;
   height: 300px;
-  width: 245px;
+  width: 235px;
   border-radius: 20px;
   object-fit: cover;
   object-position: center;
@@ -1195,6 +1195,7 @@ h2 {
 
 .dropdown-content {
   position: absolute;
+  width: 180px;              
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
