@@ -1259,3 +1259,7 @@ h2 {
 .dropbtn:hover {
   color: black;
 }
+
+.dropdown-arrow {
+  transition: transform 0.3s ease-in-out;
+}
