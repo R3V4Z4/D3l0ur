@@ -505,6 +505,10 @@ body {
   
 } */
 
+.splide2 {
+  padding: 15px 48px;
+}
+
 #carousel1 .splide__slide {
   display: flex;
   justify-content: center;
