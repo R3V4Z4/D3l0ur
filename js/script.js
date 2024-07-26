@@ -71,6 +71,20 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+const dropdowns = document.querySelectorAll(".dropdown");
+
+dropdowns.forEach((dropdown) => {
+  const dropdownArrow = dropdown.querySelector(".dropdown-arrow");
+
+  dropdown.addEventListener("mouseenter", () => {
+    dropdownArrow.style.transform = "rotate(180deg)";
+  });
+
+  dropdown.addEventListener("mouseleave", () => {
+    dropdownArrow.style.transform = "rotate(0deg)";
+  });
+});
+
 //
 const buttons = document.querySelectorAll(".data");
 
