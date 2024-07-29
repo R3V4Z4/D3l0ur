@@ -1,0 +1,288 @@
+@media (max-width: 1500px) {
+  .section {
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .section {
+    padding: 15px 20px;
+  }
+
+  .slide1 {
+    padding: 38px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .section {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .left-navbar {
+    width: 80%;
+  }
+
+  .section {
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-container2 h1 {
+    font-size: 40px;
+  }
+
+  .forever-bike {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1155px) {
+  #carousel1 .splide__slide img {
+    width: 210px;
+    height: 310px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .navbar {
+    height: 50px;
+  }
+
+  .delour {
+    height: 25px;
+  }
+  .right-navbar {
+    display: none;
+  }
+
+  .left-navbar {
+    display: none;
+  }
+
+  .burgerBar {
+    display: block;
+  }
+
+  .thousand {
+    display: block;
+  }
+
+  .about-container {
+    padding: 80px 60px 40px 40px;
+  }
+
+  .forever-bike {
+    height: 300px;
+  }
+
+  .section {
+    padding: 15px 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+    padding: 80px 40px 40px 40px;
+    gap: 20px;
+  }
+  .about-container2 {
+    padding: 0px 20px 0px 0px;
+    gap: 15px;
+  }
+  #carousel1 .splide__slide img {
+    width: 195px;
+    height: 290px;
+  }
+  #carousel2 .splide__slide img {
+    height: 60px;
+  }
+
+  #carousel3 .splide__slide img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 920px) {
+  .about-container2 h1 {
+    font-size: 30px;
+  }
+
+  .title-container h3 {
+    font-size: 25px;
+  }
+
+  .about-container2 p {
+    font-size: 15px;
+  }
+  /* .forever-bike {
+    height: 250px;
+  } */
+
+  .about-container {
+    padding: 70px 20px 30px 20px;
+  }
+
+  .about-container2 {
+    padding: 0px;
+    gap: 15px;
+  }
+  #carousel1 .splide__slide img {
+    width: 180px;
+    height: 230px;
+  }
+
+  .img-info h2 {
+    font-size: 14px;
+  }
+
+  #carousel1 .splide__slide:hover .img-info h2 {
+    scale: 1.2;
+  }
+
+  .data {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  #carousel2 .splide__slide img {
+    height: 40px;
+  }
+
+  #carousel3 .splide__slide img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 840px) {
+  .forever-bike {
+    height: 250px;
+  }
+  #carousel1 .splide__slide img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 800px) {
+  #carousel1 .splide__slide img {
+    width: 210px;
+    height: 200px;
+  }
+
+  .navbar {
+    height: 35px;
+  }
+  .burgerBar {
+    margin-top: 8px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 740px) {
+  .about-container {
+    flex-direction: column;
+    padding: 90px 70px 30px 70px;
+  }
+
+  .about-container2 {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .forever-bike {
+    width: 100%;
+    height: 200px;
+  }
+
+  #carousel1 .splide__slide img {
+    width: 190px;
+  }
+}
+
+@media (max-width: 690px) {
+  #carousel1 .splide__slide img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 630px) {
+  .about-container {
+    padding: 90px 30px 30px 30px;
+  }
+
+  .splide2 {
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 620px) {
+  #carousel1 .splide__slide img {
+    width: 155px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  #carousel1 .splide__slide img {
+    width: 140px;
+  }
+
+  .data {
+    font-size: 11px;
+    padding: 10px 8px;
+  }
+}
+
+@media (max-width: 530px) {
+  .about-container {
+    padding: 70px 70px 5px 70px;
+  }
+
+  .about-container2 p {
+    font-size: 14px;
+  }
+  .navbar {
+    padding: 0px 10px;
+  }
+  #carousel1 .splide__slide img {
+    width: 125px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 90px 50px 20px 50px;
+  }
+  #carousel1 .splide__slide img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 440px) {
+  .about-container {
+    padding: 90px 30px 20px 30px;
+  }
+  #carousel1 .splide__slide img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  #carousel1 .splide__slide img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 350px) {
+  .about-container {
+    padding: 80px 15px 20px 15px;
+  }
+  #carousel1 .splide__slide img {
+    width: 110px;
+  }
+}
