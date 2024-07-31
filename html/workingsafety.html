@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>შრომის უსაფრთხოება</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.web-fonts.ge/fonts/bpg-algeti/css/bpg-algeti.min.css"
+    />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/media.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="navbar" id="navbar">
+        <div class="burgerBar" id="burgerBar">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="menu" id="menu">
+          <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="searchInput" placeholder="ძიება" />
+          </div>
+          <ul>
+            <li>
+              <button class="bar" type="button">
+                <i class="fa-solid fa-business-time"></i>
+                <p>კომპანიის შესახებ</p>
+                <i class="fa-solid fa-angle-up arrow-icon"></i>
+              </button>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="crew.html"
+                    >
+                      ელემენტ კონსტრაქშენის გუნდი
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="workingsafety.html"
+                    >
+                      შრომის უსაფრთხოება
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="qualitycontrol.html"
+                    >
+                      ხარისხის უზრუნველყოფა
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="partners.html"
+                    >
+                      დამკვეთები/პარტნიორები
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="Career.html"
+                    >
+                      კარიერა
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <button class="data bar" type="button" data-link="new.html">
+                <i class="fa-solid fa-newspaper"></i>
+                <p>სიახლეები</p>
+              </button>
+            </li>
+            <li>
+              <button class="data bar" type="button" data-link="/html/">
+                <i class="fa-solid fa-clipboard"></i>
+                <p>ტრენინგი</p>
+              </button>
+            </li>
+            <li>
+              <button class="bar" type="button">
+                <i class="fa-regular fa-folder-open"></i>
+                <p>სერვისები</p>
+                <i class="fa-solid fa-angle-up arrow-icon"></i>
+              </button>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="project.html"
+                    >
+                      პროექტირება
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="building.html"
+                    >
+                      მშენებლობა
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="repair.html"
+                    >
+                      რემონტი
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="Industrialconstruction.html"
+                    >
+                      სამრეწველო მშენებლობა
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="productionfloors.html"
+                    >
+                      საწარმოო იტაკები
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <button class="bar" type="button">
+                <i class="fa-solid fa-diagram-project"></i>
+                <p>პროექტები</p>
+                <i class="fa-solid fa-angle-up arrow-icon"></i>
+              </button>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="finished.html"
+                    >
+                      დასრულებული
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="data bar"
+                      type="button"
+                      data-link="Currentprojects.html"
+                    >
+                      დაუსრულებელი
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="left-navbar">
+          <ul class="left-navbar-list">
+            <li>
+              <a class="deloura" href="../index.html">
+                <img
+                  class="delour"
+                  src="../images/delourlogoo-removebg-preview.png"
+                  alt="delour logo"
+                />
+              </a>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                კომპანიის შესახებ
+                <i class="fa-solid fa-angle-down dropdown-arrow"></i>
+              </button>
+              <ul class="dropdown-content">
+                <li></li>
+                <li>
+                  <a href="crew.html">გუნდი</a>
+                </li>
+                <li>
+                  <a href="workingsafety.html">შრომის უსაფრთხოება</a>
+                </li>
+                <li>
+                  <a href="qualitycontrol.html">ხარისხის უზრუნველყოფა</a>
+                </li>
+                <li>
+                  <a href="partners.html">დამკვეთები/პარტნიორები</a>
+                </li>
+                <li>
+                  <a href="Career.html">კარიერა</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button class="dropbtn data" data-link="new.html">
+                სიახლეები
+              </button>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                ტრენინგი
+                <i class="fa-solid fa-angle-down dropdown-arrow"></i>
+              </button>
+              <ul class="dropdown-content">
+                <li></li>
+                <li>
+                  <a>გუნდი</a>
+                </li>
+                <li>
+                  <a>შრომის უსაფრთხოება</a>
+                </li>
+                <li>
+                  <a>ხარისხის უზრუნველყოფა</a>
+                </li>
+                <li>
+                  <a>დამკვეთები/პარტნიორები</a>
+                </li>
+                <li>
+                  <a>კარიერა</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                სერვისები
+                <i class="fa-solid fa-angle-down dropdown-arrow"></i>
+              </button>
+              <ul class="dropdown-content">
+                <li></li>
+                <li>
+                  <a href="repair.html">რემონტი</a>
+                </li>
+                <li>
+                  <a href="building.html">მეშენებლობა</a>
+                </li>
+                <li>
+                  <a href="productionfloors.html">ინდუსტრიული იატაკი</a>
+                </li>
+                <li>
+                  <a href="Industrialconstruction.html"
+                    >სამრეწველო მშენებლობა</a
+                  >
+                </li>
+                <li>
+                  <a href="project.html">პროექტირება</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn">
+                პროექტები
+                <i class="fa-solid fa-angle-down dropdown-arrow"></i>
+              </button>
+              <ul class="dropdown-content">
+                <li></li>
+                <li>
+                  <a href="finished.html">დასრულებული</a>
+                </li>
+                <li>
+                  <a href="Currentprojects.html">მიმდინარე</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="right-navbar">
+          <a id="searchIcon"><i class="fas fa-search search-icon1"></i></a>
+          <button class="contactButton data" data-link="html/contact.html">
+            კონტაქტი
+          </button>
+        </div>
+      </nav>
+      <div class="search-results" id="searchResults">
+        <div class="input-container">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" placeholder="ძიება" />
+        </div>
+        <ul></ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="title-container2">
+        <h1>
+          ჯანმრთელობის დაცვის, შრომის უსაფრთხოებისა და გარემოსდაცვითი პოლიტიკა
+        </h1>
+      </div>
+      <div class="img-container">
+        <img src="../images/workingsafety1.jpg" alt="workingsafety img" />
+      </div>
+      <div class="main-container">
+        <h2>
+          "ელემენტ კონსტრაქშენი"-ს ყოველდღიური საქმიანობის განუყოფელ ნაწილს
+          წარმოადგენს ჯანმრთელობის დაცვის, შრომის უსაფრთხოებისა და
+          გარემოსდაცვითი სისტემების ეფექტური მენეჯმენტი და განუხრელი მიდევნება.
+        </h2>
+        <h3>
+          ISO 45001 არის ISO სტანდარტი, რომელიც ემსახურება ჯანმრთელობისა და
+          უსაფრთხოების მართვის სისტემების გამართულ ფუნქციონირებას. ISO 45001–ის
+          მიზანია, სამუშაო გარემოში ფიზიკური დაზიანებებისა და დაავადებების
+          შემცირება.
+        </h3>
+        <p>
+          ჩვენთვის ძალიან მნიშვნელოვანია ჩვენი თანამშრომლების და იმ პირთა
+          ჯანმრთელობა და უსაფრთხოება, რომლებიც პირდაპირ თუ ირიბად ჩართულები
+          არიან კომპანიის საქმიანობაში. შესაბამისად, HSE პროგრამის ფარგლებში,
+          რომელიც ეფუძნება ISO 14001 (გარემოს დაცვა) და OSHAS 18001 (პროფესიული
+          ჯანდაცვა და უსაფრთხოება) სტანდარტებს, მუდმივად ხორციელდება
+          ჯანმრთელობის, უსაფრთხოებისა და გარემოს დაცვითი პროგრამების წარმართვა,
+          რომლებიც მიმართულია ტრავმების, დაავადებების, უბედური შემთხვევების,
+          ინციდენტებისა და გარემოსთვის ნებისმიერი ზიანის მიყენების აღმოფხვრაზე.
+        </p>
+        <img src="../images/workingsafety.jpg" alt="workingsafety img" />
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="one-container">
+          <img src="../images/delour logoo.jpg" />
+          <ul>
+            <li>
+              <p>ქეთევან დედოფლის 67</p>
+            </li>
+            <li>
+              <p>+995 551 13 12 28</p>
+            </li>
+          </ul>
+        </div>
+        <div class="one-container">
+          <h4>კომპანიის შესახებ</h4>
+          <ul>
+            <li>
+              <a href="crew.html">ელემენტ კონსტრაქშენის გუნდი</a>
+            </li>
+            <li>
+              <a href="workingsafety.html">შრომის უსაფრთხოება</a>
+            </li>
+            <li>
+              <a href="qualitycontrol.html">ხარისხის უზრუნველყოფა</a>
+            </li>
+            <li>
+              <a href="partners.html">დამკვეთები/პარტნიორები</a>
+            </li>
+            <li>
+              <a href="Career.html">კარიერა</a>
+            </li>
+          </ul>
+        </div>
+        <div class="one-container">
+          <h4>სერვისები</h4>
+          <ul>
+            <li>
+              <a href="project.html">პროექტირება</a>
+            </li>
+            <li>
+              <a href="building.html">მშენებლობა</a>
+            </li>
+            <li>
+              <a href="repair.html">რემონტი</a>
+            </li>
+            <li>
+              <a href="Industrialconstruction.html">სამრეწველო მშენებლობა</a>
+            </li>
+            <li>
+              <a href="productionfloors.html">საწარმოო იატაკები</a>
+            </li>
+          </ul>
+        </div>
+        <div class="one-container-contacts">
+          <h4>კონტაქტი</h4>
+          <ul class="contact-ul">
+            <li>
+              <a><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="licence">
+        <p>Start - Business Solutions LLC © 2013 - 2024 All Rights Reserved</p>
+      </div>
+    </footer>
+    <script type="module" src="/js/script.js"></script>
+  </body>
+</html>
