@@ -132,7 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
       1360: {
         perPage: 4,
       },
-      800: {
+      1024: {
+        arrows: false,
+      },
+      740: {
         perPage: 3,
       },
       480: {
@@ -150,17 +153,14 @@ document.addEventListener("DOMContentLoaded", function () {
     autoScroll: {
       speed: 1,
     },
-    // breakpoints: {
-    //   1200: {
-    //     perPage: 3,
-    //   },
-    //   992: {
-    //     perPage: 2,
-    //   },
-    //   768: {
-    //     perPage: 1,
-    //   },
-    // },
+    breakpoints: {
+      500: {
+        perPage: 5,
+      },
+      415: {
+        perPage: 4,
+      },
+    },
   }).mount(window.splide.Extensions);
 
   new Splide("#carousel3", {
@@ -172,17 +172,14 @@ document.addEventListener("DOMContentLoaded", function () {
     autoScroll: {
       speed: 1,
     },
-    // breakpoints: {
-    //   1200: {
-    //     perPage: 3,
-    //   },
-    //   992: {
-    //     perPage: 2,
-    //   },
-    //   768: {
-    //     perPage: 1,
-    //   },
-    // },
+    breakpoints: {
+      500: {
+        perPage: 5,
+      },
+      415: {
+        perPage: 4,
+      },
+    },
   }).mount(window.splide.Extensions);
 
   new Splide("#carousel4", {
@@ -190,6 +187,11 @@ document.addEventListener("DOMContentLoaded", function () {
     perPage: 1,
     autoplay: {
       speed: 2,
+    },
+    breakpoints: {
+      1024: {
+        arrows: false,
+      },
     },
   }).mount();
 });
